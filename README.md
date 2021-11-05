@@ -10,7 +10,9 @@ El diagrama de flujo introducido es:
 
 ![Adivina_el_Numero](https://user-images.githubusercontent.com/91721496/140508292-653fd739-13ba-40da-be41-bf68bcc0ab2e.jpg)
 
-'''#Creamos el juego donde el jugador debe intoducir un número aleatorio entre 0 y 100, debiendo adivinar dicho número.
+El código que creamos para este juego es el mostrado abajo:
+
+```#Creamos el juego donde el jugador debe intoducir un número aleatorio entre 0 y 100, debiendo adivinar dicho número.
 #Metodo para generar el número aleatorio dentro del rango.
 import random
 number = random.randint(0,100)
@@ -39,4 +41,4 @@ if user_number == number:
     print("\n¡Enhorabuena! Has adivinado el número aleatorio en" ,str(chances), "oportunidades")
     print("¡Bien hecho!")  
         
-#Se terminó el juego'''
+#Se terminó el juego
