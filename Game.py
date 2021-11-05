@@ -26,4 +26,7 @@ while True:
             print("\n--> Su número es mayor que el generado aleatoriamente.")
             user_number = int(input("\nIntroduzca el número a adivinar:"))
     #Salimos del bucle al adivinar el número correcto.
-           
+    if user_number == number:
+        print("\n¡Enhorabuena! Has adivinado el número aleatorio en ", str(chances), "oportunidades") 
+        print("\n¡Bien hecho!")      
+#Se terminó el juego
