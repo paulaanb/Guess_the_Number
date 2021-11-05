@@ -2,3 +2,6 @@
 #Metodo para generar el número aleatorio dentro del rango.
 import random
 number = random.randint(0,100)
+
+#Generamos el ennunciado del juego
+print("Adivina el número generado desde 0 a 100")
